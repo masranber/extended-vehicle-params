@@ -39,6 +39,4 @@ Planned:
 - Premium vehicle XP coefficient
 
 Planned:
-- Vehicle base XP coefficient (server side but can be extracted)
-- Vehicle credit coefficient (server side but can be extracted)
 - Max repair cost

@@ -1,0 +1,90 @@
+msgid "tank_params/dispersionPenaltyMoving"
+msgstr "    moving penalty"
+
+msgid "tank_params/desc/dispersionPenaltyMoving"
+msgstr ""
+"Gun dispersion penalty applied while vehicle is in motion "
+"at a distance of 100 m. Moving penalty in units of m/kph. "
+"Therefore, moving penalty increases with speed."
+
+msgid "tank_params/dispersionPenaltyVehTraverse"
+msgstr "    hull traverse penalty"
+
+msgid "tank_params/desc/dispersionPenaltyVehTraverse"
+msgstr ""
+"Gun dispersion penalty applied during vehicle hull traverse "
+"at a distance of 100 m."
+
+msgid "tank_params/dispersionPenaltyGunTraverse"
+msgstr "    gun traverse penalty"
+
+msgid "tank_params/desc/dispersionPenaltyGunTraverse"
+msgstr ""
+"Gun dispersion penalty applied during gun traverse "
+"at a distance of 100 m. Applies to turret traverse on turreted vehicles "
+"and horizontal gun traverse on turretless vehicles. "
+"Applies to vertical gun traverse on all vehicles. "
+"<0.05     - Godlike\n"
+"0.05-0.08 - Very Good\n"
+"0.8-0.12  - Good\n"
+"0.12-0.2  - Acceptable\n"
+">0.20     - Poor\n"
+
+
+msgid "tank_params/engineMaxRpm"
+msgstr "Engine RPM (max)"
+
+msgid "tank_params/desc/engineMaxRpm"
+msgstr ""
+"Maximum engine speed. Probably doesn't do anything aside from the engine sound."
+
+
+msgid "tank_params/engineMaxTorque"
+msgstr "Engine Torque"
+
+msgid "tank_params/desc/engineMaxTorque"
+msgstr ""
+"Peak engine torque. Has no direct effect on mobility, power is used for all calculations."
+
+
+msgid "tank_params/cruisingSpeed"
+msgstr "Top Speed (actual)"
+
+msgid "tank_params/desc/cruisingSpeed"
+msgstr ""
+"Actual top speed of vehicle on flat terrain due to terrain resistance and rolling resistance "
+"(another hidden mobility parameter). Calculated on regular 'medium' terrain. "
+"Speeds on inclines/declines, paved terrain, or swampy terrain will vary."
+
+
+msgid "tank_params/terrainResistance"
+msgstr "Terrain Resistance"
+
+msgid "tank_params/desc/terrainResistance"
+msgstr ""
+"Defines the primary interaction between the tank chassis and the ground. Values for hard/normal/soft terrains. "
+"Lower terrain resistances improve acceleration and tank traverse."
+
+
+msgid "tank_params/rollingFriction"
+msgstr "Rolling Friction"
+
+msgid "tank_params/desc/rollingFriction"
+msgstr ""
+"Another hidden mobility parameter. Like terrain resistance, rolling friction also affects mobility on different terrains. "
+"Values for hard/normal/soft terrains. Lower rolling friction improves acceleration and tank traverse."
+
+
+msgid "tank_params/relativeOverall"
+msgstr "Overall"
+
+msgid "tank_params/desc/relativeOverall"
+msgstr ""
+"Overall vehicle rating. Average of Firepower, Armor, Mobility, Camo, and Vision ratings."
+
+msgid "tank_params/relativeExtended"
+msgstr "Miscellaneous"
+
+msgid "tank_params/desc/relativeExtended"
+msgstr ""
+"An additional set of various hidden vehicle parameters."

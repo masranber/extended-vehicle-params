@@ -1,0 +1,13 @@
+<root>
+  <!-- Package Identifier -->
+  <id>wot.masranber.extvehparams</id>
+  
+  <!-- Package Version -->
+  <version>1.0.0</version>
+  
+  <!-- Package Name -->
+  <name>Extended Vehicle Parameters</name>
+  
+  <!-- Package Description -->
+  <description>Displays addition hidden parameters for vehicles.</description>
+</root>
